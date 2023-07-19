@@ -10,7 +10,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure Virtual Machine
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -23,15 +23,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create a Virtual Machine on Azure 
 - Install ISS and PHP manager 
 - Install OsTicket
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 
+\
 <p>
-<img src="![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/74bc765c-eceb-4c6e-a24a-a0db947d51c3)
-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  </p>
+<img src="![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/4b476bda-e4c0-40e8-8753-73c24f09c955)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
