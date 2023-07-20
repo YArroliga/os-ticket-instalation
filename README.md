@@ -60,6 +60,16 @@ Open IIS as an administrator by right clicking from the Start menu.
 ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/83438101-cd1a-47af-be27-096dbc84b024)
 
 In IIS open PhP manager and register the new PhP version that was installed in the premade folder
+
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/af6a9c04-efe6-4570-a5e8-4a56f4a25667)
+
+Install MySQL
+
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/66806daa-58be-4ae7-adf4-2720e2716364)
+
+MySQL sets up a Password that gets used later during OsTicket installation  
+
+
 <p>
 
   ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/af7ba319-9926-43fa-8991-47d6179ebd28)
