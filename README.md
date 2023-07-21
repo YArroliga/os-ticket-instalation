@@ -26,73 +26,79 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install OsTicket
 
 <h2>Installation Steps</h2>
-
-![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/8c09594e-1e34-4de8-855b-960e637e75c5) 
-
 <p>
 On Azure, open a Virtual Machine using Windows 10 as an operating system
 <br />
+  
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/8c09594e-1e34-4de8-855b-960e637e75c5) 
+
+Open Remote Desktop and remote into the VM
 
   ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/de3e2ae9-52fc-4bf1-a81f-64bbcef4981d)
 
 
-Open Remote Desktop and remote into the VM
-<p>
-  
-![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/a7a6c91e-c10f-4a84-9e84-c90e9f0b1519) 
-
 In windows under Programs > Turn Windows features on or off > Install ISS
 
-![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/7989b573-272a-4571-bb9a-7dfee70950c8)
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/a7a6c91e-c10f-4a84-9e84-c90e9f0b1519) 
+
 
 Install PhP manager for ISS 
 
-![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/94204e00-c99a-4342-a660-9e3fc5287e51)
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/7989b573-272a-4571-bb9a-7dfee70950c8)
+
 
 Download PhP, in this case it came in a compressed file that was extracted to a premade folder in the C drive.
-</p>
-<p>
 
-<br /> ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/66991048-ed34-4c1d-a933-3846438e49a4)
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/94204e00-c99a-4342-a660-9e3fc5287e51)
 
 Open IIS as an administrator by right clicking from the Start menu.
 
-![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/83438101-cd1a-47af-be27-096dbc84b024)
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/66991048-ed34-4c1d-a933-3846438e49a4)
+
 
 In IIS open PhP manager and register the new PhP version that was installed in the premade folder
 
-![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/af6a9c04-efe6-4570-a5e8-4a56f4a25667)
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/83438101-cd1a-47af-be27-096dbc84b024)
+
 
 Install MySQL
 
-![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/66806daa-58be-4ae7-adf4-2720e2716364)
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/af6a9c04-efe6-4570-a5e8-4a56f4a25667)
 
 MySQL sets up a Password that gets used later during OsTicket installation  
 
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/66806daa-58be-4ae7-adf4-2720e2716364)
 
-<p>
 
-  ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/af7ba319-9926-43fa-8991-47d6179ebd28)
+
 
 Restart the server
 
-  ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/a512908b-92f7-4aa1-9a1a-8f157f4791df)
+  ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/af7ba319-9926-43fa-8991-47d6179ebd28)
 
 Download OsTicket and in the downloads folder open the OsTicket folder to drag the uploads folder into  Windows C: > inetpub > wwwroot folder, then rename the uploads folder to OsTicket
 
-![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/7391ce37-f8bf-4537-ba3e-308356497c8a)
+  ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/a512908b-92f7-4aa1-9a1a-8f157f4791df)
+
 
 OsTicket is installed but it's not fully functioning. We still need to enable some protocols. 
+
+![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/7391ce37-f8bf-4537-ba3e-308356497c8a)
+
+In IIS under PHP manager > Enable or disable an extension 
+Enable
+- PHP IMAP Extension
+- Intl Extension
+- PHP_opcache
+
 
 ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/72f8d8f5-a1e0-472a-a615-baba3e4ff917)
 
 
-In IIS under PHP manager > Enable or disable an extension 
-Enable: PHP IMAP Extension and Intl Extension
+Finish the installation process of the program by filling out the information 
 
 ![image](https://github.com/YArroliga/os-ticket-instalation/assets/139689160/a8e7941a-0d02-42dd-8fa8-fbac14a694b8)
 
-Finish the installation process of the program by filling out the information 
 
 
 </p>
